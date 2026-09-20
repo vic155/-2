@@ -1,0 +1,40 @@
+{
+  "executed_at": "2026-09-20T20:37:33+08:00",
+  "focused_tests": 4,
+  "result": "PASS",
+  "test_command": "python -m unittest tests.test_audio -v",
+  "sound_design": "fixed high pitches, short exponential decay, fast-decaying upper partials",
+  "sounds": {
+    "blocked.wav": {
+      "seconds": 0.07,
+      "peak_pcm16": 16312,
+      "packaged_bytes_match": true,
+      "sha256": "5da135712fd780ac6de0ce4a2cc45e0b315d66a5a199911bd492fb81b874b28a"
+    },
+    "click.wav": {
+      "seconds": 0.055,
+      "peak_pcm16": 15084,
+      "packaged_bytes_match": true,
+      "sha256": "568d648d4c9531b83bc65da1554373083a461bf978d24abbbd7c25ad50be99a6"
+    },
+    "lost.wav": {
+      "seconds": 0.195,
+      "peak_pcm16": 14200,
+      "packaged_bytes_match": true,
+      "sha256": "43006e2da895ae9dad1b518f7513db523e34ed3931f31b1d0962794833190ac7"
+    },
+    "removed.wav": {
+      "seconds": 0.18,
+      "peak_pcm16": 22904,
+      "packaged_bytes_match": true,
+      "sha256": "5d27c032dae1b8500a75d68e557032e20136fdbc27082454c4c2e9e88450b769"
+    },
+    "won.wav": {
+      "seconds": 0.34,
+      "peak_pcm16": 19586,
+      "packaged_bytes_match": true,
+      "sha256": "40ac7289bf98e8232063d9f4ae6181938f51ea45255dd884a403451177eb9b2a"
+    }
+  },
+  "packaged_smoke": "PASS"
+}

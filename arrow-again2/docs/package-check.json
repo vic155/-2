@@ -1,0 +1,23 @@
+{
+  "executed_at": "2026-09-20T20:46:50+08:00",
+  "version": 2,
+  "platform": "Windows 11 x64",
+  "command": "ArrowAgain.exe --smoke-test",
+  "working_directory": "different from executable directory",
+  "display": "native Windows display, SDL dummy not enabled",
+  "result": "PASS",
+  "checks": [
+    {
+      "target": "ArrowAgain.exe",
+      "exit_code": 0
+    }
+  ],
+  "exit_code": 0,
+  "exe_bytes": 15756265,
+  "sha256": "b9371ee9935cc77ddb2516e1b4d63f1747cebaeaa0ecb8bc985955a3109a28e5",
+  "coverage": "animated menu, start button, random board entrance, successful first click during entrance, restart, sound toggle, clean exit",
+  "audio_limit": "Playback API and WAV content tested; no claim of subjective human listening",
+  "audio_revision": "crisp",
+  "ui_revision": "minimal-menu-and-arrow-opening",
+  "assets_match": "font and 5 crisp WAV files match source assets byte-for-byte"
+}

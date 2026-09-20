@@ -1,0 +1,18 @@
+{
+  "executed_at": "2026-09-20T20:45:30+08:00",
+  "method": "Pygame event queue, actual GameApp renderer, SDL dummy; no human playtest claim",
+  "python": "3.12.7",
+  "pygame_ce": "2.5.7",
+  "gif_frames": 311,
+  "checks": [
+    "Menu: decorative arrow flies and returns without starting or changing a puzzle",
+    "Entrance: staggered arrow reveal captured; opening.gif uses actual game frames",
+    "T02: blocked arrow stays, one mistake deducted; collision frame captured",
+    "T01/T03/T04: first level cleared using mouse events; win screen displayed",
+    "T04: all 3 levels cleared; final level has no out-of-range next action",
+    "T05/T06: 3 collisions trigger failure; restart restores board and mistake budget",
+    "V2: new puzzle replaces layout at the same difficulty and resets progress",
+    "V2: mute button disables sound without changing puzzle"
+  ],
+  "result": "PASS"
+}
