@@ -1,0 +1,11 @@
+{
+  "executed_at": "2026-09-17T16:15:08+08:00",
+  "platform": "Windows 11 x64",
+  "command": "ArrowAgain.exe --smoke-test",
+  "working_directory": "different from executable directory",
+  "display": "native Windows display, SDL dummy not enabled",
+  "result": "PASS",
+  "exit_code": 0,
+  "exe_bytes": 15650186,
+  "coverage": "packaged program launches, renders menu, handles start input, renders first board, exits"
+}

@@ -1,0 +1,46 @@
+Executed: 2026-09-17T16:15:08+08:00
+Command: python -m unittest discover -s tests -v
+Exit code: 0
+
+test_at_least_three_levels_with_all_four_directions (test_model.LevelSolvabilityTests.test_at_least_three_levels_with_all_four_directions) ... ok
+test_every_shipped_solution_replays_to_win_without_mistakes (test_model.LevelSolvabilityTests.test_every_shipped_solution_replays_to_win_without_mistakes) ... ok
+test_solver_reports_cycle_after_removing_independent_arrow (test_model.LevelSolvabilityTests.test_solver_reports_cycle_after_removing_independent_arrow) ... ok
+test_solver_reports_impossible_cycle (test_model.LevelSolvabilityTests.test_solver_reports_impossible_cycle) ... ok
+test_arrows_behind_and_in_other_rows_do_not_block (test_model.PathDetectionTests.test_arrows_behind_and_in_other_rows_do_not_block) ... ok
+test_closest_blocker_is_reported_in_all_directions (test_model.PathDetectionTests.test_closest_blocker_is_reported_in_all_directions) ... ok
+test_empty_position_has_no_blocker (test_model.PathDetectionTests.test_empty_position_has_no_blocker) ... ok
+test_four_directions_detect_distant_arrows (test_model.PathDetectionTests.test_four_directions_detect_distant_arrows) ... ok
+test_rectangular_board_uses_separate_height_and_width (test_model.PathDetectionTests.test_rectangular_board_uses_separate_height_and_width) ... ok
+test_t01_clear_path_removes_arrow (test_model.RequiredBehaviorTests.test_t01_clear_path_removes_arrow) ... ok
+test_t02_blocked_arrow_stays_and_costs_one_mistake (test_model.RequiredBehaviorTests.test_t02_blocked_arrow_stays_and_costs_one_mistake) ... ok
+test_t03_all_four_outward_edges_remove_without_overflow (test_model.RequiredBehaviorTests.test_t03_all_four_outward_edges_remove_without_overflow) ... ok
+test_t04_clearing_level_enables_next_level (test_model.RequiredBehaviorTests.test_t04_clearing_level_enables_next_level) ... ok
+test_t05_exhausted_mistakes_lose_and_allow_restart (test_model.RequiredBehaviorTests.test_t05_exhausted_mistakes_lose_and_allow_restart) ... ok
+test_t06_restart_restores_initial_layout_and_counters (test_model.RequiredBehaviorTests.test_t06_restart_restores_initial_layout_and_counters) ... ok
+test_cycle_has_no_available_move_or_hint (test_model.StateAndInputTests.test_cycle_has_no_available_move_or_hint) ... ok
+test_empty_and_outside_clicks_do_not_change_state (test_model.StateAndInputTests.test_empty_and_outside_clicks_do_not_change_state) ... ok
+test_game_does_not_mutate_shared_level_data (test_model.StateAndInputTests.test_game_does_not_mutate_shared_level_data) ... ok
+test_hint_is_legal_and_does_not_modify_board_or_counters (test_model.StateAndInputTests.test_hint_is_legal_and_does_not_modify_board_or_counters) ... ok
+test_load_level_resets_state_to_selected_level (test_model.StateAndInputTests.test_load_level_resets_state_to_selected_level) ... ok
+test_second_click_on_removed_arrow_is_harmless (test_model.StateAndInputTests.test_second_click_on_removed_arrow_is_harmless) ... ok
+test_won_game_is_locked_until_restart_or_next_level (test_model.StateAndInputTests.test_won_game_is_locked_until_restart_or_next_level) ... ok
+test_bundled_font_covers_chinese_strings_in_game_source (test_ui.GameAppIntegrationTests.test_bundled_font_covers_chinese_strings_in_game_source) ... ok
+test_collision_animation_locks_rapid_repeated_clicks (test_ui.GameAppIntegrationTests.test_collision_animation_locks_rapid_repeated_clicks) ... ok
+test_empty_cell_grid_edges_and_gaps_do_not_cost_mistakes (test_ui.GameAppIntegrationTests.test_empty_cell_grid_edges_and_gaps_do_not_cost_mistakes) ... ok
+test_enter_and_space_start_selected_third_level (test_ui.GameAppIntegrationTests.test_enter_and_space_start_selected_third_level) ... ok
+test_enter_uses_result_next_button (test_ui.GameAppIntegrationTests.test_enter_uses_result_next_button) ... ok
+test_escape_cancels_old_animation_before_starting_new_game (test_ui.GameAppIntegrationTests.test_escape_cancels_old_animation_before_starting_new_game) ... ok
+test_failure_waits_for_collision_then_restart_button_recovers (test_ui.GameAppIntegrationTests.test_failure_waits_for_collision_then_restart_button_recovers) ... ok
+test_hint_button_and_key_leave_board_and_mistakes_unchanged (test_ui.GameAppIntegrationTests.test_hint_button_and_key_leave_board_and_mistakes_unchanged) ... ok
+test_hint_is_ignored_during_flight (test_ui.GameAppIntegrationTests.test_hint_is_ignored_during_flight) ... ok
+test_last_arrow_finishes_flight_before_result_screen (test_ui.GameAppIntegrationTests.test_last_arrow_finishes_flight_before_result_screen) ... ok
+test_mouse_completes_all_three_levels_and_final_has_no_next (test_ui.GameAppIntegrationTests.test_mouse_completes_all_three_levels_and_final_has_no_next) ... ok
+test_mouse_selects_third_level_and_starts (test_ui.GameAppIntegrationTests.test_mouse_selects_third_level_and_starts) ... ok
+test_r_key_restarts_while_last_arrow_is_flying (test_ui.GameAppIntegrationTests.test_r_key_restarts_while_last_arrow_is_flying) ... ok
+test_restart_button_cancels_success_or_collision_animation (test_ui.GameAppIntegrationTests.test_restart_button_cancels_success_or_collision_animation) ... ok
+test_right_mouse_button_does_not_remove_arrow (test_ui.GameAppIntegrationTests.test_right_mouse_button_does_not_remove_arrow) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.973s
+
+OK
